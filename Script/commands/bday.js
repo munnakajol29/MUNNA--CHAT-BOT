@@ -34,7 +34,7 @@ module.exports.run = async ({ api, event }) => {
   const diffSeconds = Math.floor((diffMs / 1000) % 60);
 
   if (diffDays === 1) {
-    const tomorrowMessage = `👉 Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!
+    const tomorrowMessage = `👉 Admin 𝐌𝐔𝐍𝐍𝐀 𝐕𝐀𝐈 𝟒𝟐𝟗 এর জন্মদিন আগামীকাল!
 অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল 😜
 
 উইশ করতে ভুলবে না কিন্তু... 🥰`;
@@ -43,26 +43,26 @@ module.exports.run = async ({ api, event }) => {
 
   if (diffDays === 0) {
     const happyBirthdayMessage = `╔═══ 🎉 HAPPY BIRTHDAY 🎉 ═══╗
-║ OUR BOSS - SHAHADAT SAHU 💖
+║ OUR BOSS - 𝐌𝐔𝐍𝐍𝐀 𝐕𝐀𝐈 𝟒𝟐𝟗 💖
 ╟──────────────────────
 ║ 🎂 আজ আমাদের Boss এর জন্মদিন!
 ║ 🥳 সবাই মন থেকে উইশ করো
 ║ ❤️ দোয়া ও ভালোবাসা জানাও
 ╟──────────────────────
 ║ 📘 Facebook :
-║ www.facebook.com/100044713412032
+║ https://m.me/munna.boss.444 
 ║ 💬 Messenger :
-║ m.me/100044713412032
+║ https://m.me/munna.boss.444
 ║ 📱 WhatsApp :
-║ https://wa.me/+8801882333052
+║ https://wa.me/qr/HQN4ZJEWKA5TF1
 ╚══════════════════════╝`;
     return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
   }
 
   const countdownMessage = `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin 𝐌𝐔𝐍𝐍𝐀 𝐕𝐀𝐈 𝟒𝟐𝟗
 ║ জন্মদিন কাউন্টডাউন ❤️‍🔥
-║═══════════════════
+║════════════════════╗
 ║ 📅 Days : ${diffDays}
 ║ ⏰ Hours : ${diffHours}
 ║ 🕰️ Minutes : ${diffMinutes}
