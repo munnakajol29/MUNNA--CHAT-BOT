@@ -65,10 +65,10 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
  😍✦──⃝‌‌𝐌𝐔𝐍𝐍𝐀 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓───✦😘`;
 
  const imgLinks = [
- "https://i.imgur.com/zqsuJnX.jpeg",
- "https://i.imgur.com/sxSn1K3.jpeg",
- "https://i.imgur.com/wu0iDqS.jpeg",
- "https://i.imgur.com/Huz3nAE.png"
+ "https://imagetourl.cloud/jhrbzuzt.jpg",
+ "https://imagetourl.cloud/clfgsc6e.png",
+ "https://imagetourl.cloud/3kzv9ndf.jpg",
+ "https://imagetourl.cloud/g8g5rxdp.png"
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
