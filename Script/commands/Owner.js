@@ -41,7 +41,7 @@ module.exports.run = async function ({ api, event }) {
 `;
 
   const images = [
-    "https://i.imgur.com/8WBso8x.png",
+    "https://kommodo.ai/i/GpE7RpAKbSxYlZyk4pEp",
     "https://i.imgur.com/0VZu5eY.png",
     "https://i.imgur.com/bkixgPK.jpeg",
     "https://i.imgur.com/z6G6L4c.jpeg"
